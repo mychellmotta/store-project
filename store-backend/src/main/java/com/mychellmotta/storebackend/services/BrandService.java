@@ -17,7 +17,7 @@ public class BrandService {
         this.brandRepository = brandRepository;
     }
 
-    public List<Brand> getAll() {
+    public List<Brand> findAll() {
         return brandRepository.findAll();
     }
 

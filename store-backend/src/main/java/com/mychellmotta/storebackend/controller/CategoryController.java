@@ -18,8 +18,8 @@ public class CategoryController {
     }
 
     @GetMapping("/")
-    public List<Category> getAll() {
-        return categoryService.getAll();
+    public List<Category> findAll() {
+        return categoryService.findAll();
     }
 
     @PostMapping("/")

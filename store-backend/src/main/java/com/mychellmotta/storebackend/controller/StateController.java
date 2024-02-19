@@ -18,8 +18,8 @@ public class StateController {
     }
 
     @GetMapping("/")
-    public List<State> getAll() {
-        return stateService.getAll();
+    public List<State> findAll() {
+        return stateService.findAll();
     }
 
     @PostMapping("/")

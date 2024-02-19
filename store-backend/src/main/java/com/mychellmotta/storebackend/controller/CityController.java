@@ -18,8 +18,8 @@ public class CityController {
     }
 
     @GetMapping("/")
-    public List<City> getAll() {
-        return cityService.getAll();
+    public List<City> findAll() {
+        return cityService.findAll();
     }
 
     @PostMapping("/")
