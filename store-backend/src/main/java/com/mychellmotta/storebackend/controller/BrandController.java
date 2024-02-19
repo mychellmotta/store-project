@@ -18,8 +18,8 @@ public class BrandController {
     }
 
     @GetMapping("/")
-    public List<Brand> getAll() {
-        return brandService.getAll();
+    public List<Brand> findAll() {
+        return brandService.findAll();
     }
 
     @PostMapping("/")
